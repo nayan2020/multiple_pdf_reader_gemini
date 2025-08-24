@@ -1,0 +1,48 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Database files (local development)
+db.sqlite3
+faiss_index
+
+# Sensitive information/configuration files
+local_settings.py
+.env
+
+# Build artifacts/distribution files
+dist/
+build/
+*.egg-info/
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
