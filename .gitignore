@@ -20,6 +20,7 @@ __pycache__/
 
 # Database files (local development)
 db.sqlite3
+faiss_index
 
 # Sensitive information/configuration files
 local_settings.py
